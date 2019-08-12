@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6882" started-at="2019-08-12T02:34:07Z" finished-at="2019-08-12T02:34:14Z">
+  <suite name="Default suite" duration-ms="29300" started-at="2019-08-12T04:00:32Z" finished-at="2019-08-12T04:01:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6882" started-at="2019-08-12T02:34:07Z" finished-at="2019-08-12T02:34:14Z">
-      <class name="launchChrome.TC001_Using_Chrome">
-        <test-method status="PASS" signature="setup()[pri:0, instance:launchChrome.TC001_Using_Chrome@7823a2f9]" name="setup" duration-ms="6866" started-at="2019-08-12T02:34:07Z" finished-at="2019-08-12T02:34:14Z">
+    <test name="Default test" duration-ms="29300" started-at="2019-08-12T04:00:32Z" finished-at="2019-08-12T04:01:01Z">
+      <class name="launchChrome.TC002_Advanced_Selenium">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:launchChrome.TC002_Advanced_Selenium@cb5822]" name="setUp" is-config="true" duration-ms="3410" started-at="2019-08-12T04:00:32Z" finished-at="2019-08-12T04:00:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-      </class> <!-- launchChrome.TC001_Using_Chrome -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginFaceBook()[pri:0, instance:launchChrome.TC002_Advanced_Selenium@cb5822]" name="loginFaceBook" duration-ms="20663" started-at="2019-08-12T04:00:36Z" finished-at="2019-08-12T04:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFaceBook -->
+        <test-method status="PASS" signature="closeUp()[pri:0, instance:launchChrome.TC002_Advanced_Selenium@cb5822]" name="closeUp" is-config="true" duration-ms="5213" started-at="2019-08-12T04:00:56Z" finished-at="2019-08-12T04:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeUp -->
+      </class> <!-- launchChrome.TC002_Advanced_Selenium -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

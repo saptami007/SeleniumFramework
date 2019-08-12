@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="launchChrome.TC001_Using_Chrome"/>
+      <class name="launchChrome.TC002_Advanced_Selenium"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- SeleniumSuite -->
